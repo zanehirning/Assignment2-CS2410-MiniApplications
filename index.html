@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Applications</title>
+    <script src="madlibs.js" defer></script>
+    <script src="mortgage.js" defer></script>
+</head>
+<body>
+    <h1>Mini Applications</h1>
+    <div>
+        <h2>Mad Libs Generator</h2>
+        <h3>Proper Noun</h3>
+        <input type="text" id="noun">
+        <h3>Verb (past tense)</h3>
+        <input type="text" id="verb1">
+        <h3>Verb (past tense)</h3>
+        <input type="text" id="verb2">
+        <h3>Adjective</h3>
+        <input type="text" id="adjective">
+        <h3>Object</h3>
+        <input type="text" id="object">  
+    </div>
+    <button id="generate">Generate</button>
+    <div id="MadLib-output">
+
+    </div>
+
+    <div>
+        <h2>Mortgage Calculator</h2>
+        <h3>Loan Amount</h3>
+        <input type="text" id="loan-amount" value="340000"/>
+        <h3>Annual Interest Rate</h3>
+        <input type="text" id="interest-rate" value="5.5"/>
+        <h3>Number of Years</h3>
+        <input type="text" id="years" value="30"/>
+    </div>
+    <h3 id="mortgage-output"></h3>
+    
+</body>
+</html>
